@@ -1,8 +1,9 @@
 # depslib dependency file v1.0
-1750093230 source:c:\users\labinfo4\documents\heranca\main.cpp
+1750163866 source:c:\users\gilson.alves.701\documents\heranca_ufrn\main.cpp
 	<iostream>
 	"empresa.h"
 
-1750095198 c:\users\labinfo4\documents\heranca\empresa.h
+1750162661 c:\users\gilson.alves.701\documents\heranca_ufrn\empresa.h
 	<vector>
+	<cstdint>
 

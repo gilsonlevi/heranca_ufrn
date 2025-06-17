@@ -1,6 +1,7 @@
 #ifndef EMPRESA_H_INCLUDED
 #define EMPRESA_H_INCLUDED
 #include <vector>
+#include <cstdint>
 
 class Empresa {
 private:
@@ -51,6 +52,22 @@ class Prato {
 private:
     std::string nome;
     double preco;
+public:
+    void setNome(std::string novoNome){
+        nome = novoNome;
+    }
+
+    std::string getNome() const{
+        return nome;
+    }
+
+    void setPreco(double novoPreco){
+        preco = novoPreco;
+    }
+
+    double getPreco() const{
+        return preco;
+    }
 
 
 };
@@ -89,6 +106,13 @@ public:
             return;
         }
         menu.erase(menu.begin()+i);
+    }
+
+    void imprimirPratos() const{
+        for (const auto& P : menu)
+        {
+            std::cout << P.getNome() << '\t' << P.getPreco()<< "\n";
+        }
     }
 
     friend std::ostream& operator<<(std::ostream& X, const Restaurante& res)
