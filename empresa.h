@@ -46,6 +46,7 @@ public:
         return X << "Nome: " << emp.getNome() << " CEP: " << emp.getCEP() << " Telefone: " << emp.getTelefone();
     }
 
+
 };
 
 class Prato {

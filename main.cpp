@@ -1,11 +1,11 @@
 #include <iostream>
 #include "empresa.h"
+#include "escola.h"
 
 using namespace std;
 
-int main()
-{
-    Restaurante r;
+void funEmpresa(){
+Restaurante r;
     Prato P;
     string nomePrato;
     double precoPrato;
@@ -32,6 +32,25 @@ int main()
             r.push_back(P);
         }
     }
+
+}
+
+void funcEscola(){
+
+    Data data;
+    data.setDia(12);
+    data.setMes(1);
+    data.setAno(2005);
+    cin >> data;
+    cout << data;
+
+
+}
+
+int main()
+{
+    //funEmpresa();
+    funcEscola();
 
 
     return 0;

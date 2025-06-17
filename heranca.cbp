@@ -35,6 +35,9 @@
 		<Unit filename="empresa.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
+		<Unit filename="escola.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="main.cpp" />
 		<Extensions />
 	</Project>
